@@ -1,0 +1,11 @@
+name: PitShekels
+author: dec4234
+version: 1.0
+api-version: 1.13
+main: pitShekelsSrc.PitShekelsMain
+loadbefore: [PitScoreboard, PitSource, PitShop]
+commands:
+    balance:
+        usage: /balance [player]
+        description: Get the balance of the player
+        aliases: [info, bal, playerinfo]
